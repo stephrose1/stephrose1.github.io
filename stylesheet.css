@@ -1,10 +1,21 @@
 body {
     background-color: #67BEA6;
-    width: 80%;  
+    width: 30%;
 
 }
 #search {
     padding: 5px;
+}
+
+em {
+    color: greenyellow;
+    font-style: normal;
+}
+.button {
+    background-color: greenyellow;
+}
+#mapthumb {
+    width = 100px;
 }
 
 #logo {
@@ -16,6 +27,11 @@ form {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: purple;
+}
+
+p {
+    font-family: sans-serif;
 }
 
 .icon {
@@ -23,14 +39,8 @@ h2 {
     margin: 5px;
 }
 ul {
-    list-style-type: nogne;
+    list-style-type: none;
 }
 li p {
     float: right;
 }
-  table.center {
-
-    margin-left:auto; 
-    margin-right:auto; 
-   
-  }
