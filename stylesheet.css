@@ -1,21 +1,11 @@
 body {
-    background-color: #67BEA6;
-    width: 30%;
-
+ padding-top: 2.6rem;
+   background-repeat:repeat-x;
+   background-size:cover;
+   display: flex;
 }
 #search {
     padding: 5px;
-}
-
-em {
-    color: greenyellow;
-    font-style: normal;
-}
-.button {
-    background-color: greenyellow;
-}
-#mapthumb {
-    width = 100px;
 }
 
 #logo {
@@ -27,11 +17,6 @@ form {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: purple;
-}
-
-p {
-    font-family: sans-serif;
 }
 
 .icon {
@@ -44,3 +29,91 @@ ul {
 li p {
     float: right;
 }
+.jumbotron{
+ background: rgba(255,255,255, 0.8);
+  color: inherit;
+  /* Background Gradient for Analagous Colors */
+    background-color: #00FF80;
+	 background: linear-gradient(to right, rgba(175, 233, 198,0.8), rgba(175, 233, 198,0.8));
+    box-shadow: 0px 0px 10px 10px rgb(0,65,60,0.95)
+
+ 
+ }
+ 
+/* color and font change of heading h2 (all main heading on page) */
+.jumbotron h2{
+	
+	padding-top: 1rem;
+	 font-family: 'EB Garamond', serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: block;
+  font-style:normal;
+  padding-top: 0.1em;
+  color: white;
+  font-weight:bolder;
+	
+	}
+	
+	.jumbotron p{
+	color: #182021;
+	font-family: "Georgia";
+	font-size:20px;
+	font-weight: 500;
+
+	}
+.jumbotron ul{
+	color: #182021;
+	font-family: "Georgia";
+	font-size:20px;
+	font-weight: 500;
+
+	}
+	
+/*Contact CSS
+-------------------------------------------------- */
+
+.scorebox {
+	background-color:rgba(179,236,255, 1.0);
+	font-weight:bold;
+	font-size: 20px;
+	color:#205863;
+	height: auto;
+    outline: 2px solid gray;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+	overflow-wrap: break-word;
+	box-shadow: 0px 0px 10px 10px rgb(0,65,60,0.5);
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {outline-color: blue;}
+}
+/* Standard syntax */
+@keyframes mymove {
+    50% {outline-color: blue;}
+	
+}
+
+
+	
+a:link, a:visited, a:hover ,a:active{
+    text-decoration: none;
+	color: white;
+}
+.btn-info.round {
+	border-radius: 24px;
+}
+.btn-info.raised {
+	box-shadow: 0 3px 0 0 #007299;
+}
+
+.zoom{
+	transition:transform 0.1s;
+}
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
