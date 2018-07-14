@@ -1,0 +1,36 @@
+body {
+    background-color: #67BEA6;
+    width: 80%;  
+
+}
+#search {
+    padding: 5px;
+}
+
+#logo {
+    width: 250px;
+}
+form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+    width: 60px;
+    margin: 5px;
+}
+ul {
+    list-style-type: nogne;
+}
+li p {
+    float: right;
+}
+  table.center {
+
+    margin-left:auto; 
+    margin-right:auto; 
+   
+  }
