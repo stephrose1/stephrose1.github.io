@@ -33,43 +33,32 @@
         <div id="search">
 		<div class="container-fluid">
 		<img src="images\Logo.png" class="img-fluid" alt="map">
-     </div> 
-	 <h3> Feedback</h3>
+     </div>
+	 <h2> You have Succesfully submitted feeback<h2>
             <form action="/action_page.php">
-			<table border="0" id="feedback"  cellpadding="10">
-			
-			<tr><td> Select level experience:  &nbsp;&nbsp; </td>
-			<td><label class="form-check-label" for="radio1">
-        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked><b>Beginner</b> &nbsp;&nbsp;
-      </label>
-    </div>
-    <div class="form-check-inline">
-      <label class="form-check-label" for="radio2">
-        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"><b> Average</b>  &nbsp;
-      </label>
-    </div>
-	<div class="form-check-inline">
-      <label class="form-check-label" for="radio3">
-        <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option2"><b> Experienced</b>  &nbsp;&nbsp;
-      </label>
-    </div>
-	</td>
-		</tr>
-			<tr>
-			<td>Safety Rating (out of 10): </td>
-                <td><input type="text" name="from" value=""></td> </tr>
-				
-              <tr><td>  Comment:</td>
-                <td><textarea class="form-control" rows="5" id="comment" name="text"></textarea></td></tr>
-            
-              <tr> <td></td>
-			  <td><br> <input type="button" onclick="location.href='feedbackResult.html';" value="Report Log"/></a> (add to my log)</td></tr>
-			   </table>
+                START:<br>
+                <input type="text" name="from" value="">
+                        <br>
+                <br>
+                FINISH:<br>
+                <input type="text" name="to" value="">
+            <br><br>
+               <input type="button" onclick="location.href='scores.html';" value="Find safe routes"/></a>
         </form>
         </div>
 		
 	<br>	
-      
+      <div class="score">
+		<h3><a class="target" id="contact">Total Savings Score</a></h3>
+		<div class="scorebox">
+		<table id="scoretable">
+		<tr><td> <img class="icon" src="images/dollarsign.png" width="20px"/> Money Saved :</td> <td>&nbsp; $95 </td></tr>
+		<tr> <td><img class="icon" src="images/drop.png" width="20px" /> Calories Burnt :</td> <td>&nbsp; 2059kcal</td></tr>
+		<tr> <td> &nbsp;<img class ="icon" src="images/earth.png" width="10px" />Emissions Saved:</td> <td>&nbsp; 2,900gm</td></tr>
+		</table>
+         
+		</div>
+		</div>
         
     <!-- FOOTER -->
 	   
